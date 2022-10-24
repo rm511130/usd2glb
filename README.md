@@ -1,2 +1,119 @@
 # usd2glb
-Blender Python Script for converting USD file into GLB format
+- Python Script for converting [USD files](https://graphics.pixar.com/usd/release/usdfaq.html) into [GLB format](https://en.wikipedia.org/wiki/GLB_(file_format))
+
+   1. Converts a single USD file into a single GLB
+   2. Converts all subcomponents of a USD file into GLBs
+
+## TL; DR
+
+   1. Complete the [requirements](#requirements) using default directories.  
+   2. Skip to the [How-To](#how-to) section. Cut & Paste & Execute the commands using Windows PowerShell or a Mac Terminal Window.  
+   3. Check for the results under the `Downloads\output` directory.  
+
+## Requirements: <a name="requirements"></a>
+   - [Blender 3.3 or later](https://www.blender.org/download/) installed on your machine
+   - Download [`usd2glb.py`](https://drive.google.com/file/d/1KN-noZbOH_hVfCcQgaQo7IAW4CgXGKbs/view?usp=sharing)
+   - Download [`PZ2.usd`](https://drive.google.com/file/d/1fJyewo1JMThtBwSZkCKmwBoyg-MuD1mp/view?usp=sharing). It's a sample `usd` file.
+   - Windows OS (access to [PowerShell](https://learn.microsoft.com/en-us/powershell/scripting/learn/ps101/01-getting-started?view=powershell-7.2#where-do-i-find-powershell)) or MacOS (access to [Terminal](https://support.apple.com/guide/terminal/open-or-quit-terminal-apd5265185d-f365-44cb-8b09-71a064a42125/mac))
+   
+_Note: The Python Code will be executed as headless / background service_
+
+## Command Syntax:
+
+- This section covers the _**command syntax**_.  
+- Assumption: you have Blender version 3.3 installed on your machine.  
+- Skip to the [_**How-To**_](#how-to) section if you would like to see a working example.  
+
+### a. Windows Machines
+
+```
+cd "C:\Program Files\Blender Foundation\Blender 3.3"
+.\blender.exe -b -P usd2glb.py -- -i <sample.usd> -o output <output-directory> -s <single.glb>
+```
+
+### b. MacOS Machines
+
+```
+cd /Applications/Blender.app/Contents/MacOS
+./blender -b -P usd2glb.py -- -i <sample.usd> -o output <output-directory> -s <single.glb>
+```
+
+### In both cases: Windows and MacOS
+```
+- The <sample.usd> is the file to be converted to GLB. 
+- The usd2glb.py script will:
+     - output one GLB per object found in the <sample.usd> file. 
+     - append .glb to the object names it finds in the <sample.usd> file. 
+     - export the union of all the .glb files as a <single.glb> file.
+- The <sample.usd> and <single.glb> placeholders correspond to file-path and file name.
+- The <output-directory> placeholder corresponds to a file-path of an existing directory.
+```
+
+## How to execute: <a name="how-to"></a>
+
+### a. Windows PowerShell Example:
+
+```
+cd "C:\Program Files\Blender Foundation\Blender 3.3"
+mkdir ~\Downloads\output
+.\blender.exe -b -P "C:\Users\Ralph\Downloads\usd2glb.py" -- -i "C:\\Users\\Ralph\\Downloads\\PZ2.usd" -o "C:\\Users\Ralph\\Downloads\\output" -s "C:\\Users\\Ralph\\Downloads\\output\\PZ2.glb"
+```
+
+### Notes:
+       - Directories referred to in "-i", "-o" and "-s" must already exist
+       - Note the need for double backslashes when passing parameters to the Python code
+
+### Output Example: Windows Machine
+
+```
+Blender 3.3.1 (hash b292cfe5a936 built 2022-10-04 23:43:02)
+USD import of '/Users/rmeira/Downloads/PZ2.usd' took 21.1 ms
+
+Blender quit       
+```
+
+### b. MacOS Terminal Example:
+
+```
+cd /Applications/Blender.app/Contents/MacOS
+mkdir -p ~/Downloads/output
+./blender -b -P ~/Downloads/usd2glb.py -- -i ~/Downloads/PZ2.usd -o ~/Downloads/output -s ~/Downloads/output/PZ2.glb
+```
+
+### Output Example: MacOS
+
+```
+Blender 3.3.1 (hash b292cfe5a936 built 2022-10-04 23:43:02)
+USD import of '/Users/rmeira/Downloads/PZ2.usd' took 21.1 ms
+
+Blender quit
+```
+
+### Where:
+```
+-b = background or headless
+
+-P = Python
+
+Python Script = ~/Downloads/usd2glb.py 
+
+-- = subsequent parameters are inputs for the Python code
+
+-i = input USD file name and location
+     Example of USD file name and location = ~/Downloads/PZ2.usd
+
+-o = output directory where all USD subcomponents will be saved as GLB files
+     Example of output directory: ~/Downloads/output
+
+-s = file name and location of single GLB file conversion from USD file
+     Example of Single GLB file name and location: ~/Downloads/output/PZ2.glb
+```
+
+### Notes:
+       - Directories referred to in "-i", "-o" and "-s" must already exist
+       - `~` corresponds to your home directory under which is found the `Downloads` directory
+       
+### Results
+
+- Check under the `output` directory created under your default `Downloads` folder
+- You should see a 3D Model of a Puzzle `PZ2.glb` and six Puzzle Pieces in GLB format
