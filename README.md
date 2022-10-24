@@ -8,7 +8,7 @@
 
    1. Complete the [requirements](#requirements) using default directories.  
    2. Skip to the [How-To](#how-to) section. Copy & Paste & Execute the commands using on your machine.  
-   3. Check for the results under the `Downloads\output` directory.  
+   3. Check for results under the `Downloads\output` directory.  
 
 ## Requirements: <a name="requirements"></a>
    - [Blender 3.3 or later](https://www.blender.org/download/) installed on your machine
