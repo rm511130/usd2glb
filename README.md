@@ -145,62 +145,53 @@ mkdir -p ~/Downloads/output
 </summary>
   
 ```
-Blender 3.3.1 (hash b292cfe5a936 built 2022-10-05 00:49:25)
-Read prefs: C:\Users\Ralph\AppData\Roaming\Blender Foundation\Blender\3.3\config\userpref.blend
-USD import of 'C:\Users\Ralph\Downloads\PZ2.usd' took 13.0 ms
-18:24:18 | INFO: Draco mesh compression is available, use library at C:\Program Files\Blender Foundation\Blender 3.3\3.3\python\lib\site-packages\extern_draco.dll
-18:24:19 | INFO: Starting glTF 2.0 export
-18:24:19 | INFO: Extracting primitive: OBJ_from_SE_PZ2
-18:24:19 | INFO: Primitives created: 1
-18:24:19 | INFO: Extracting primitive: OBJ_from_SE_PZ2_001
-18:24:19 | INFO: Primitives created: 1
-18:24:19 | INFO: Extracting primitive: OBJ_from_SE_PZ2_002
-18:24:19 | INFO: Primitives created: 1
-18:24:19 | INFO: Extracting primitive: OBJ_from_SE_PZ2_003
-18:24:19 | INFO: Primitives created: 1
-18:24:19 | INFO: Extracting primitive: OBJ_from_SE_PZ2_004
-18:24:19 | INFO: Primitives created: 1
-18:24:19 | INFO: Extracting primitive: OBJ_from_SE_PZ2_005
-18:24:19 | INFO: Primitives created: 1
-18:24:19 | INFO: Finished glTF 2.0 export in 0.015670299530029297 s
-
-18:24:19 | INFO: Draco mesh compression is available, use library at C:\Program Files\Blender Foundation\Blender 3.3\3.3\python\lib\site-packages\extern_draco.dll
-18:24:19 | INFO: Starting glTF 2.0 export
-18:24:19 | INFO: Extracting primitive: OBJ_from_SE_PZ2
-18:24:19 | INFO: Primitives created: 1
-18:24:19 | INFO: Finished glTF 2.0 export in 0.0 s
-
-18:24:19 | INFO: Draco mesh compression is available, use library at C:\Program Files\Blender Foundation\Blender 3.3\3.3\python\lib\site-packages\extern_draco.dll
-18:24:19 | INFO: Starting glTF 2.0 export
-18:24:19 | INFO: Extracting primitive: OBJ_from_SE_PZ2_001
-18:24:19 | INFO: Primitives created: 1
-18:24:19 | INFO: Finished glTF 2.0 export in 0.0 s
-
-18:24:19 | INFO: Draco mesh compression is available, use library at C:\Program Files\Blender Foundation\Blender 3.3\3.3\python\lib\site-packages\extern_draco.dll
-18:24:19 | INFO: Starting glTF 2.0 export
-18:24:19 | INFO: Extracting primitive: OBJ_from_SE_PZ2_002
-18:24:19 | INFO: Primitives created: 1
-18:24:19 | INFO: Finished glTF 2.0 export in 0.01564788818359375 s
-
-18:24:19 | INFO: Draco mesh compression is available, use library at C:\Program Files\Blender Foundation\Blender 3.3\3.3\python\lib\site-packages\extern_draco.dll
-18:24:19 | INFO: Starting glTF 2.0 export
-18:24:19 | INFO: Extracting primitive: OBJ_from_SE_PZ2_003
-18:24:19 | INFO: Primitives created: 1
-18:24:19 | INFO: Finished glTF 2.0 export in 0.0 s
-
-18:24:19 | INFO: Draco mesh compression is available, use library at C:\Program Files\Blender Foundation\Blender 3.3\3.3\python\lib\site-packages\extern_draco.dll
-18:24:19 | INFO: Starting glTF 2.0 export
-18:24:19 | INFO: Extracting primitive: OBJ_from_SE_PZ2_004
-18:24:19 | INFO: Primitives created: 1
-18:24:19 | INFO: Finished glTF 2.0 export in 0.0 s
-
-18:24:19 | INFO: Draco mesh compression is available, use library at C:\Program Files\Blender Foundation\Blender 3.3\3.3\python\lib\site-packages\extern_draco.dll
-18:24:19 | INFO: Starting glTF 2.0 export
-18:24:19 | INFO: Extracting primitive: OBJ_from_SE_PZ2_005
-18:24:19 | INFO: Primitives created: 1
-18:24:19 | INFO: Finished glTF 2.0 export in 0.0 s
-
-
+Blender 3.3.1 (hash b292cfe5a936 built 2022-10-04 23:43:02)
+USD import of '/Users/rmeira/Downloads/PZ2.usd' took 68.2 ms
+18:37:45 | INFO: Draco mesh compression is available, use library at /Applications/Blender.app/Contents/Resources/3.3/python/lib/python3.10/site-packages/libextern_draco.dylib
+18:37:46 | INFO: Starting glTF 2.0 export
+18:37:46 | INFO: Extracting primitive: OBJ_from_SE_PZ2
+18:37:46 | INFO: Primitives created: 1
+18:37:46 | INFO: Extracting primitive: OBJ_from_SE_PZ2_001
+18:37:46 | INFO: Primitives created: 1
+18:37:46 | INFO: Extracting primitive: OBJ_from_SE_PZ2_002
+18:37:46 | INFO: Primitives created: 1
+18:37:46 | INFO: Extracting primitive: OBJ_from_SE_PZ2_003
+18:37:46 | INFO: Primitives created: 1
+18:37:46 | INFO: Extracting primitive: OBJ_from_SE_PZ2_004
+18:37:46 | INFO: Primitives created: 1
+18:37:46 | INFO: Extracting primitive: OBJ_from_SE_PZ2_005
+18:37:46 | INFO: Primitives created: 1
+18:37:46 | INFO: Finished glTF 2.0 export in 0.019634008407592773 s
+18:37:46 | INFO: Draco mesh compression is available, use library at /Applications/Blender.app/Contents/Resources/3.3/python/lib/python3.10/site-packages/libextern_draco.dylib
+18:37:46 | INFO: Starting glTF 2.0 export
+18:37:46 | INFO: Extracting primitive: OBJ_from_SE_PZ2
+18:37:46 | INFO: Primitives created: 1
+18:37:46 | INFO: Finished glTF 2.0 export in 0.003885984420776367 s
+18:37:46 | INFO: Draco mesh compression is available, use library at /Applications/Blender.app/Contents/Resources/3.3/python/lib/python3.10/site-packages/libextern_draco.dylib
+18:37:46 | INFO: Starting glTF 2.0 export
+18:37:46 | INFO: Extracting primitive: OBJ_from_SE_PZ2_001
+18:37:46 | INFO: Primitives created: 1
+18:37:46 | INFO: Finished glTF 2.0 export in 0.003175020217895508 s
+18:37:46 | INFO: Draco mesh compression is available, use library at /Applications/Blender.app/Contents/Resources/3.3/python/lib/python3.10/site-packages/libextern_draco.dylib
+18:37:46 | INFO: Starting glTF 2.0 export
+18:37:46 | INFO: Extracting primitive: OBJ_from_SE_PZ2_002
+18:37:46 | INFO: Primitives created: 1
+18:37:46 | INFO: Finished glTF 2.0 export in 0.004430055618286133 s
+18:37:46 | INFO: Draco mesh compression is available, use library at /Applications/Blender.app/Contents/Resources/3.3/python/lib/python3.10/site-packages/libextern_draco.dylib
+18:37:46 | INFO: Starting glTF 2.0 export
+18:37:46 | INFO: Extracting primitive: OBJ_from_SE_PZ2_003
+18:37:46 | INFO: Primitives created: 1
+18:37:46 | INFO: Finished glTF 2.0 export in 0.0035169124603271484 s
+18:37:46 | INFO: Draco mesh compression is available, use library at /Applications/Blender.app/Contents/Resources/3.3/python/lib/python3.10/site-packages/libextern_draco.dylib
+18:37:46 | INFO: Starting glTF 2.0 export
+18:37:46 | INFO: Extracting primitive: OBJ_from_SE_PZ2_004
+18:37:46 | INFO: Primitives created: 1
+18:37:46 | INFO: Finished glTF 2.0 export in 0.00404810905456543 s
+18:37:46 | INFO: Draco mesh compression is available, use library at /Applications/Blender.app/Contents/Resources/3.3/python/lib/python3.10/site-packages/libextern_draco.dylib
+18:37:46 | INFO: Starting glTF 2.0 export
+18:37:46 | INFO: Extracting primitive: OBJ_from_SE_PZ2_005
+18:37:46 | INFO: Primitives created: 1
+18:37:46 | INFO: Finished glTF 2.0 export in 0.0036890506744384766 s
 Blender quit
 ```
 
