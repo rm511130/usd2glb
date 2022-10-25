@@ -23,9 +23,9 @@
 ##        -- = subsequent parameters are inputs for the Python code
 ##        -i = input USD file name and location
 ##        Example of USD file name and location = "C:\\Users\\Ralph\\3D Objects\\Human Pixar Woman\\HumanFemale.usd" 
-##        -o = output directory where all USD subcomponents will be saved as GLB files
+##        -o = optional output directory where all USD subcomponents will be saved as GLB files
 ##        Example of output directory: "C:\\Users\\Ralph\\3D Objects\\Human Pixar Woman\\output" 
-##        -s = file name and location of single GLB file conversion from USD file
+##        -s = optional file name and location of single GLB file conversion from USD file
 ##        Example of Single GLB file name and location: "C:\\Users\\Ralph\\3D Objects\\Human Pixar Woman\\HumanFemale.glb"
 ##
 ## Notes:
