@@ -8,8 +8,8 @@
 usd2glb.py = Python Script
         -- = subsequent parameters are inputs for the Python code
         -i = input USD file name and location
-        -o = output directory where all USD subcomponents will be saved as GLB files
-        -s = file name and location of single GLB file conversion from USD file
+        -o = optional output directory where all USD subcomponents will be saved as GLB files 
+        -s = optional file name and location of single GLB file conversion from USD file
 ```
 
 - Python Script for converting [USD files](https://graphics.pixar.com/usd/release/usdfaq.html) into [GLB format](https://en.wikipedia.org/wiki/GlTF)
