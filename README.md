@@ -21,7 +21,7 @@ usd2glb.py = Python Script
    - [Blender 3.3 or later](https://www.blender.org/download/) installed on your machine
    - Download [`usd2glb.py`](https://drive.google.com/file/d/1KN-noZbOH_hVfCcQgaQo7IAW4CgXGKbs/view?usp=sharing)
    - Download [`PZ2.usd`](https://drive.google.com/file/d/1fJyewo1JMThtBwSZkCKmwBoyg-MuD1mp/view?usp=sharing). It's a sample `usd` file.
-   - Windows OS (access to [PowerShell](https://learn.microsoft.com/en-us/powershell/scripting/learn/ps101/01-getting-started?view=powershell-7.2#where-do-i-find-powershell)) or MacOS (access to [Terminal](https://support.apple.com/guide/terminal/open-or-quit-terminal-apd5265185d-f365-44cb-8b09-71a064a42125/mac))
+   - Windows OS (access to [PowerShell ISE](https://learn.microsoft.com/en-us/powershell/scripting/learn/ps101/01-getting-started?view=powershell-7.2#where-do-i-find-powershell)) or MacOS (access to [Terminal](https://support.apple.com/guide/terminal/open-or-quit-terminal-apd5265185d-f365-44cb-8b09-71a064a42125/mac))
    
 _Note: The Python Code will be executed as headless / background service_
 
