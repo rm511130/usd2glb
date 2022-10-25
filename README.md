@@ -38,6 +38,7 @@ mkdir ~\Downloads\output
 ### Notes:
        - Directories referred to in "-i", "-o" and "-s" must already exist
        - Note the need for double backslashes when passing parameters to the Python code
+       - Please substitute my \Users\Ralph directory for yours
 
 <details>
 <summary>
