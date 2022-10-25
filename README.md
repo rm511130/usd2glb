@@ -12,12 +12,6 @@
    
 _Note: The Python Code will be executed as headless / background service_
 
-## TL; DR
-
-   1. Complete the [requirements](#requirements) using default directories.  
-   2. Skip to the [How-To](#how-to) section. Copy & Paste & Execute the commands using on your machine.  
-   3. Check for results under the `Downloads\output` directory.  
-
 ## How to execute: <a name="how-to"></a>
 
 ### a. Windows PowerShell Example:
