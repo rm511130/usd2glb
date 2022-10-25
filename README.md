@@ -4,12 +4,6 @@
    1. Converts a single USD file into a single GLB
    2. Converts all subcomponents of a USD file into GLBs
 
-## TL; DR
-
-   1. Complete the [requirements](#requirements) using default directories.  
-   2. Skip to the [How-To](#how-to) section. Copy & Paste & Execute the commands using on your machine.  
-   3. Check for results under the `Downloads\output` directory.  
-
 ## Requirements: <a name="requirements"></a>
    - [Blender 3.3 or later](https://www.blender.org/download/) installed on your machine
    - Download [`usd2glb.py`](https://drive.google.com/file/d/1KN-noZbOH_hVfCcQgaQo7IAW4CgXGKbs/view?usp=sharing)
@@ -18,36 +12,11 @@
    
 _Note: The Python Code will be executed as headless / background service_
 
-## Command Syntax:
+## TL; DR
 
-- This section covers the _**command syntax**_.  
-- Assumption: you have Blender version 3.3 installed on your machine.  
-- Skip to the [_**How-To**_](#how-to) section if you would like to see a working example.  
-
-### a. Windows Machines
-
-```
-cd "C:\Program Files\Blender Foundation\Blender 3.3"
-.\blender.exe -b -P usd2glb.py -- -i <sample.usd> -o output <output-directory> -s <single.glb>
-```
-
-### b. MacOS Machines
-
-```
-cd /Applications/Blender.app/Contents/MacOS
-./blender -b -P usd2glb.py -- -i <sample.usd> -o output <output-directory> -s <single.glb>
-```
-
-### In both cases: Windows and MacOS
-```
-- The <sample.usd> is the file to be converted to GLB. 
-- The usd2glb.py script will:
-     - output one GLB per object found in the <sample.usd> file. 
-     - append .glb to the object names it finds in the <sample.usd> file. 
-     - export the union of all the .glb files as a <single.glb> file.
-- The <sample.usd> and <single.glb> placeholders correspond to file-path and file name.
-- The <output-directory> placeholder corresponds to a file-path of an existing directory.
-```
+   1. Complete the [requirements](#requirements) using default directories.  
+   2. Skip to the [How-To](#how-to) section. Copy & Paste & Execute the commands using on your machine.  
+   3. Check for results under the `Downloads\output` directory.  
 
 ## How to execute: <a name="how-to"></a>
 
