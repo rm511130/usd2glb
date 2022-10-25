@@ -86,4 +86,4 @@ if args.output:
             check_existing=False, export_format="GLB", ui_tab="GENERAL",
             use_selection=True,
             export_yup=False)
-      ob.select_set(False)
+          ob.select_set(False)
