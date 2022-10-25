@@ -1,4 +1,7 @@
 # usd2glb
+
+`./blender -b -P usd2glb.py -- -i <sample.usd> -o <output-directory> -s <sample.glb>`
+
 - Python Script for converting [USD files](https://graphics.pixar.com/usd/release/usdfaq.html) into [GLB format](https://en.wikipedia.org/wiki/GlTF)
 
    1. Converts a single USD file into a single GLB
